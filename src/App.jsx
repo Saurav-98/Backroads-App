@@ -3,7 +3,7 @@ import React from 'react';
 import { About, Nav, Hero, Services, Tours, Footer } from './components';
 
 const App = () => {
-  console.log('hello');
+  // console.log('hello');
   return (
     <>
       <Nav />
