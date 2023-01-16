@@ -1,11 +1,18 @@
 import React from 'react';
 
+import { About, Nav, Hero, Services, Tours, Footer } from './components';
+
 const App = () => {
   console.log('hello');
   return (
-    <div>
-      <h1>Backroad App!</h1>
-    </div>
+    <>
+      <Nav />
+      <Hero />
+      <About />
+      <Services />
+      <Tours />
+      <Footer />
+    </>
   );
 };
 
